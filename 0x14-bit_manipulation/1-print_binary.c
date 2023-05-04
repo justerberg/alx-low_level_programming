@@ -1,5 +1,11 @@
 #include "main.h"
-
+/**
+ * _power - calculates base raised to the power of pow
+ * @base: the base value
+ * @pow: the power value
+ *
+ * Return: the result of the calculation
+ */
 unsigned long int _power(unsigned int base, unsigned int pow)
 {
 unsigned long int num = 1;
